@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "git-commit-msg-linter": "^2.4.2",
+    "typescript": "^3.9.3"
+  }
 }
