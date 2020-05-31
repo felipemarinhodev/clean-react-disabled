@@ -3,12 +3,12 @@
 		"target": "es5",
 		"lib": [
 			"dom",
-			"DOM.Iterable",
-			"ESNext"
+			"dom.iterable",
+			"esnext"
 		],
 		"esModuleInterop": true,
-		"module": "ESNext",
-		"moduleResolution": "Node",
+		"module": "esnext",
+		"moduleResolution": "node",
 		"jsx": "react",
 		"rootDir": "src",
 		"baseUrl": "src",
@@ -18,6 +18,7 @@
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true,
+		"isolatedModules": true,
 		"noEmit": true
 	},
 	"include": [
