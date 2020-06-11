@@ -1,14 +1,11 @@
 import React from 'react'
 import Styles from './login-styles.scss'
-import Header from '@/presentation/components/login-header/login-header'
-import Footer from '@/presentation/components/footer/footer'
-import Input from '@/presentation/components/input/input'
-import FormStatus from '@/presentation/components/form-status/form-status'
+import { LoginHeader, Footer, Input, FormStatus } from '@/presentation/components'
 
-const login: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <div className={Styles.login}>
-      <Header />
+      <LoginHeader />
       <form className={Styles.form}>
         <h2>Login</h2>
         <Input type="email" name="email" placeholder="Digite seu e-mail" />
@@ -22,4 +19,4 @@ const login: React.FC = () => {
   )
 }
 
-export default login
+export default Login
